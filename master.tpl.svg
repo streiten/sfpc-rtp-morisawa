@@ -1,9 +1,15 @@
 <svg version="1.1"
 id="maeda-morisawa" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="650px" height="911px"
-viewBox="0 0 650 911" xml:space="preserve">
+xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="670px" height="931px"
+viewBox="-10 -10 670 931" xml:space="preserve">
 
 <!-- @@ -->
+
+ <rect x="0" y="511" width="650" height="400" fill="url(#gradient)" />
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0" y1="511" x2="0" y2="911">
+        <stop stop-opacity="0" stop-color="#FFFFFF" offset="0"/>
+        <stop stop-opacity="0.3" stop-color="#0000C0" offset="1"/>
+ </linearGradient>
 
  <defs>
 	<symbol id="morisawa-logo">
@@ -24,6 +30,9 @@ viewBox="0 0 650 911" xml:space="preserve">
 		z"/>
 		<path d="M167.321,43.58V0h42.292v87.159h-42.292V43.58L167.321,43.58z"/>
 	</symbol>
+
+
+
 </defs>
 
 </svg>

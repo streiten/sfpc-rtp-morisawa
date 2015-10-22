@@ -13,6 +13,7 @@ poster_height = 911
 svg_elems = ''
 y_val = 0.0
 i = 0
+counter = 0
 
 while poster_height > y_val:
     width = symbol_width / (i+1)
@@ -25,14 +26,13 @@ while poster_height > y_val:
         # building the actual element
         svg_elems += '<use xlink:href="#morisawa-logo" x="0" y="0" transform="translate(' + str(x_val) + ' ' + str(y_val) +') scale('+str(scale)+' '+str(scale)+')" />\n'
         x_val += width
+        counter += 1
 
     y_val += symbol_height / (i+1)
     i += 1
     # print '---'
 
-print y_val
-print i
-
+print str(counter) + ' instances created'
 
 # assemble the svg chunks
 svg_chunks = svg_tpl.split('<!-- @@ -->')
